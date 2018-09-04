@@ -1,75 +1,123 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Girl Scouts!</title>
-<link rel="icon" href="favicon.png">
-</head>
- 
-<!-- the webpage content -->
 <body>
- 
+
+<style>
+div { height: 50px; line-height: 50px; width: 150px; background-color: #e67e22; display: inline-block; border-radius: 4px; text-align: center; }
+div:hover { background-color: #d35400; }
+</style>
+
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
 <p>Edit the code in the window to the left, and click "Run" to view the result.</p>
 
-<div class="navigation">
-  <a href="https://www.girlscoutshcc.org/" target="_blank"><img src="https://s3.us-east-2.amazonaws.com/girl.scouts/gshcc_stem_logo.png" alt="logo" style="width:200px"></a>
- <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default" target="_blank"><i class="fas fa-home"></i></a>
-</div>
- 
-<div class="inset">
-  <p>Here's where I can add more content to my webpage <i class="fas fa-leaf"></i></p>
-  <h3>There are layers of headers tags</h3>
-  <h4>h4 is smaller than h3</h4>
-  <p>You can also make lists!
-    <ol>
-      <li>Item #1</li>
-      <li>Item #2</li>
-      <li>Item #3</li>
-    </ol>
-  </p>
-   
-  <div>
-    <div>
-      <div>Column 1</div>
-    </div>
-    <div>
-      <div>Column 2</div>
-    </div>
-    <div>
-      <div>Column 3</div>
-    </div>
+<hr>
 
-    <div>
-      <div>
-        <a href="https://fontawesome.com/icons" target="_blank"><i class="fab fa-fort-awesome"></i><br>
-    More Icons from FontAwesome</a>
-      </div>
-    </div>
-    
-    <div>
-      <div>
-        <a href="https://flatuicolors.com/" target="_blank">
-          <i class="fas fa-paint-brush"></i><br>Pick Some Colors!
-        </a>
-      </div>
-    </div>
-    
-    <div>
-      <div>
-        <a href="https://www.w3schools.com/" target="_blank">
-          <i class="fas fa-code"></i><br>w3schools (HTML & CSS)
-        </a>
-      </div>
-    </div>
+<p>
+  Here's where I can add more content to my webpage:
+</p>
+
+<p>
+  You can make a horizontal line divider with the tag <code>&lt;hr&gt;</code>
+</p>
+
+<p>
+  You can make an empty line (line break) with the tag <code>&lt;br&gt;</code>
+</p>
+
+<hr>
+
+<h1>There are layers of headings tags</h1>
+
+<h1>This is heading h1 (the biggest)</h1>
+<h2>h2 is smaller than h1</h2>
+<h3>h3 is smaller than h2</h3>
+<h4>h4 is smaller than h3</h4>
+<h5>h5 is smaller than h4</h5>
+<h6>h6 is the smallest header</h6>
+
+<hr>
+
+<h3> Lists </h3>
+
+<p>
+  You can also make lists! <code>&lt;ol&gt;</code> is an "ordered" list with numbers.  <code>&lt;ul&gt;</code> is an "unordered" list with bullet points.  Each line in the list is made with an <code>&lt;li&gt;</code> tag.
+</p>
+
+<ol>
+  <li>Item #1</li>
+  <li>Item #2</li>
+  <li>Item #3</li>
+</ol>
+
+<ul>
+  <li>Bullet Item #1</li>
+  <li>Bullet Item #2</li>
+  <li>Bullet Item #3</li>
+</ul>
+
+<hr>
+
+<h3> Images </h3>
+
+<p>
+  You can add images to your website using the <code>&lt;img&gt;</code> tag.  This tag is special because it doesn't have a closing <code>&lt;/img&gt;</code> tag.
+</p>
+
+<p>
+  <img src="https://s3.us-east-2.amazonaws.com/girl.scouts/gshcc_stem_logo.png" alt="logo" width="200px">
+</p>
+
+<hr>
+
+<h3> Links </h3>
+
+<p>
+  Links are made with the <code>&lt;a&gt;</code> tag.  The URL goes into the <code>href</code> property.
+</p>
+
+<p>
+  <a href="https://www.girlscoutshcc.org/" target="_blank">Click me to learn more about Girl Scouts!</a>
+</p>
+
+<hr>
+
+<h3> Divisions (sections) </h3>
+
+<p>
+  The <code>&lt;div&gt;</code> tag is super useful for adding formats and dividing up your webpage.  You can add styles that control the height, width, color, opacity (how much you can see through it) and much, much more!  These are also fun for adding interactivity to your page.
+</p>
+
+<p>
+  <div>
+    A div was added!
   </div>
-   
-</div>
- 
-<div class="footer">
-  &copy; 2018 by Carly Narlesky
-</div>
+</p>
+
+<hr>
+
+<h3>Here are some more useful references</h3>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+<p>
+  <a href="https://fontawesome.com/icons" target="_blank">
+  <i class="fab fa-fort-awesome"></i>  
+  More Icons from FontAwesome
+  </a>
+</p>
+
+<p>
+  <a href="https://flatuicolors.com/" target="_blank">
+    <i class="fas fa-paint-brush"></i>  Pick Some Colors!
+  </a>
+</p>
+    
+<p>
+  <a href="https://www.w3schools.com/" target="_blank">
+    <i class="fas fa-code"></i>  w3schools (HTML & CSS)
+  </a>
+</p>
 
 </body>
 </html>
