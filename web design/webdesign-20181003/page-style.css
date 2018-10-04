@@ -1,0 +1,48 @@
+.navigation {
+    margin: 0px -8px 0px -8px;
+    background-color: #9b59b6; 
+    color: white; 
+    padding: 0px; 
+    vertical-align: middle;
+    min-width: 100%;
+    width: calc(100% + 16px);
+}
+
+.mini-banner {
+    margin: -8px -8px 0px -8px;
+    background: #9b59b6; 
+    width: calc(100% + 16px);
+    font-family: sans-serif; 
+    color: #e67e22; 
+    text-align: right; 
+    font-size: 20px; 
+    border-bottom: 2px #333 solid;
+}
+
+.mini-banner > div {
+    padding: 5px;
+}
+
+.mini-banner div a {
+    color: #e67e22;
+}
+
+.footer {
+    color: white; 
+    font-family: sans-serif; 
+    text-align: center; 
+    padding-bottom: 10px; 
+    bottom: 0px; 
+    margin: 0px 0px -132px -48px;
+    min-width: 100%;
+    width: calc(100% + 56px);
+    background-color: transparent;
+}
+
+.footer a {
+    color: white;
+}
+
+.fab, .fas {
+    font-size: 1.5em; 
+}
