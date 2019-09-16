@@ -1,0 +1,35 @@
+body {
+	margin: 0px; 
+	padding: 0px;
+}
+
+.mini-banner {
+	background: #9b59b6; 
+	width: 100%; 
+	font-family: sans-serif; 
+	color: #e67e22; 
+	text-align: right; 
+	font-size: 20px; 
+	border-bottom: 2px #333 solid;
+}
+
+.mini-banner > div {
+	padding: 5px;
+}
+
+.mini-banner div a {
+	color: #e67e22;
+}
+
+.footer {
+	color: white; 
+	font-family: sans-serif; 
+	text-align: center; 
+	padding-bottom: 10px; 
+	position: fixed; bottom: 0px; 
+	width: 100%;
+}
+
+.footer a {
+	color: white;
+}
